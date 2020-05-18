@@ -58,4 +58,11 @@ def winner(board)
   end
 end
 
+def play(board)
+  until over?(board)
+  turn(board)
+end
 
+board = array.new (9 "  ")
+
+play(board)
